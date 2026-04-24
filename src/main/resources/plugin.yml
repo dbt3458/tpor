@@ -1,0 +1,14 @@
+name: Tpor
+version: 1.0
+main: com.tpor.TporPlugin
+api-version: 1.12
+author: yellowchicken
+commands:
+  tpor:
+    description: 锁定目标玩家并展示假收款码
+    usage: /tpor <玩家名>
+    permission: tpor.use
+permissions:
+  tpor.use:
+    description: 允许使用 /tpor 命令
+    default: op
